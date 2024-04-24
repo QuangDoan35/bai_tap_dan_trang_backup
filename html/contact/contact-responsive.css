@@ -1,0 +1,73 @@
+@media screen and (max-width: 1000px){
+    .messenger-for-maiatech-inner-container{
+        padding: 50px;
+    }
+}
+@media screen and (max-width: 700px){
+    .messenger-for-maiatech{
+        margin-top: -500px;
+    }
+    .messenger-for-maiatech-inner-container{
+        padding: 10px;
+    }
+    .messenger-maiatech-decor-1{
+        width: 100px;
+        left: 0;
+        z-index: -1;
+    }
+    .messenger-for-maiatech-inner{
+        padding: 20px;
+    }
+    .messenger-maiatech-decor-2{
+        display: none;
+    }
+    .messenger-for{
+        font-size: 40px;
+        margin-right: 50px;
+    }
+    .maiatech{
+        font-size: 50px;
+    }
+}
+@media screen and (max-width: 700px){
+    .messenger-for-maiatech{
+        margin-top: -400px;
+    }
+    .messenger-maiatech-decor-3{
+        width: 200px;
+    }
+}
+@media screen and (max-width: 400px){
+    .messenger-maiatech-decor-1{
+        width: 200px;
+    }
+    .submit-btn-input-box{
+        width: 50%;
+    }
+    .messenger-for-maiatech-inner-container{
+        width: 100%;
+    }
+    .messenger-for-maiatech{
+        font-size: 13px;
+    }
+    .messenger-maiatech-decor-1{
+        top: 200px;
+    }
+    .messenger-for{
+        font-size: 20px;
+        margin-right: 50px;
+    }
+    .maiatech{
+        font-size: 40px;
+    }        
+    .messenger-maiatech-decor-1{
+        display: none;
+    }
+    .messenger-maiatech-decor-2{
+        display: none;
+    }
+    .messenger-maiatech-decor-3{
+        display: none;
+    }
+
+}

@@ -1,0 +1,897 @@
+/*who we are*/
+@media screen and (min-width: 1350px) {
+    .who-we-are-inner-content {
+        background-color: transparent;
+    }
+}
+
+@media screen and (max-width: 1350px) {
+    .who-we-are {
+        padding: 0;
+    }
+
+    .who-we-are-inner {
+        flex-direction: column-reverse;
+    }
+
+    .who-we-are-inner-content {
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .who-we-are-inner-content-body {
+        padding: 20px;
+    }
+
+    .who-we-are-inner-banner {
+        display: flex;
+        justify-content: center;
+        margin-top: -30px;
+    }
+
+    .who-we-are-inner-banner img {
+        width: 600px;
+    }
+}
+
+@media screen and (max-width: 1250px) {
+    .who-we-are {
+        margin-top: -500px;
+    }
+
+    .who-we-are-inner-content-body-introduce {
+        width: 100%;
+    }
+
+    .who-we-are-inner-content-body {
+        padding: 30px 100px;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .who-we-are {
+        margin-top: -500px;
+    }
+
+    .who-we-are-inner-banner img {
+        width: 600px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .who-we-are {
+        margin-top: -400px;
+    }
+
+    .who-we-are-inner-banner img {
+        width: 400px;
+    }
+
+    .who-we-are-decor-1 {
+        display: none;
+    }
+
+    .who-we-are-inner-content-body {
+        padding: 30px 50px;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .who-we-are {
+        margin-top: -350px;
+    }
+
+    .who-we-are-inner-banner img {
+        width: 300px;
+    }
+
+    .who-we-are-inner-content-title {
+        margin-bottom: -10px;
+        margin-top: 40px;
+
+        .who-we-are-inner-content-title-who {
+            font-size: 80px;
+        }
+
+        .who-we-are-inner-content-title-weare {
+            font-size: 40px;
+            margin-top: -20px;
+        }
+    }
+
+    .who-we-are-inner-content-body {
+        padding: 30px;
+    }
+}
+
+@media screen and (max-width: 300px) {
+    .who-we-are-inner-content-title {
+        .who-we-are-inner-content-title-who {
+            font-size: 70px;
+        }
+
+        .who-we-are-inner-content-title-weare {
+            font-size: 40px;
+            padding-left: 20px;
+        }
+    }
+
+    .who-we-are-inner-banner img {
+        width: 200px;
+    }
+}
+
+/*WHAT WE DO*/
+@media screen and (max-width: 1500px) {
+    .what-we-do-inner-body-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .what-we-do-inner-body-element {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding: 10px 50px;
+        justify-content: center;
+    }
+
+    .what-we-do-inner-body {
+        padding: 0 10px;
+    }
+
+    .dot-line {
+        display: none;
+    }
+
+    .dot-line-mobile {
+        display: flex;
+    }
+
+    .what-we-do-inner-body-element {
+        margin: 0 20px;
+        padding: 30px 10px;
+    }
+
+    .line-mobile-style {
+        height: 200px;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .what-we-do-inner-header-title {
+        font-size: 70px;
+        font-weight: bold;
+    }
+
+    .what-we-do-inner-header-slogan {
+        font-size: 20px;
+    }
+
+    .what-we-do-inner-body-element img {
+        width: 80px;
+    }
+}
+
+@media screen and (max-width: 560px) {
+    .what-we-do-inner-header-title {
+        font-size: 60px;
+        font-weight: bold;
+    }
+
+    .what-we-do-inner-header-slogan {
+        font-size: 17px;
+    }
+
+    .what-we-do-inner-body {
+        margin-top: 20px;
+    }
+
+    .what-we-do-inner-body-element p {
+        font-size: 15px;
+        padding: 10px;
+    }
+
+    .what-we-do-inner-body-element img {
+        width: 60px;
+    }
+
+    .line-mobile-style {
+        height: 250px;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .what-we-do-inner-header-title {
+        font-size: 50px;
+        font-weight: bold;
+    }
+
+    .what-we-do-inner-header-slogan {
+        font-size: 17px;
+        padding: 0 50px;
+    }
+
+    .what-we-do-inner-body-element img {
+        width: 70px;
+    }
+
+    .what-we-do-inner-body-element {
+        margin: 0 10px;
+    }
+
+    .what-we-do-inner-body-element p {
+        font-size: 15px;
+    }
+
+    .dot {
+        margin: 10px;
+    }
+
+    .dot-style {
+        width: 10px;
+        height: 10px;
+    }
+
+    .line-mobile-style {
+        height: 350px;
+    }
+
+}
+
+@media screen and (max-width: 400px) {
+    .what-we-do-inner-header-title {
+        font-size: 30px;
+        font-weight: bold;
+    }
+
+    .what-we-do-inner-header-slogan {
+        font-size: 12px;
+        padding: 0 40px;
+    }
+
+    .what-we-do-inner-body-element {
+        margin: 0 5px;
+    }
+
+    .what-we-do-inner-body-element p {
+        font-size: 10px;
+    }
+
+    .dot {
+        margin: 10px;
+    }
+
+    .dot-style {
+        width: 5px;
+        height: 5px;
+    }
+}
+
+/*CSS OUR SERVICES*/
+@media screen and (max-width: 1400px) {
+    .our-services-inner {
+        flex-direction: column-reverse;
+    }
+
+    .our-services-inner-banner {
+        width: 100%;
+
+        img {
+            width: 60%;
+            float: right;
+        }
+    }
+
+    .our-services-inner-content {
+        margin-top: -200px;
+        width: 100%;
+    }
+
+    .our-services-inner-content {
+        padding: 30px;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .our-services-inner-content-body-element {
+        padding: 0 10px;
+
+        p {
+            width: 100%;
+        }
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .our-services-inner-content-body {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .our-services-inner-content-body-element {
+        margin-top: 20px;
+    }
+
+    .our-services-inner-content-header {
+        padding: 10px;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .our-services-inner-content-header-title {
+        font-size: 50px;
+    }
+
+    .our-services-inner-content-header-title-services {
+        margin-left: 30px;
+    }
+
+    .our-services-inner-content-header-introduce {
+        font-size: 14px;
+        padding: 0;
+    }
+
+    .our-services-inner-content-body-element img {
+        width: 60px;
+    }
+
+    .our-services-inner-content-body-element {
+        div {
+            font-size: 13px;
+        }
+    }
+
+    .our-services-inner-content-header-title-services {
+        margin-top: -20px;
+    }
+
+    .our-services-inner-content {
+        margin-top: -100px;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .our-services-inner-content-header-title {
+        font-size: 40px;
+    }
+
+    .our-services-inner-content-header-title-services {
+        margin-left: 0px;
+    }
+
+    .our-services-inner-content-body {
+        margin-top: 10px;
+    }
+
+    .our-services-inner-content-body-element {
+        p {
+            font-size: 10px;
+        }
+    }
+}
+
+@media screen and (max-width: 350px) {
+    .our-services-inner-content-header-title {
+        font-size: 40px;
+    }
+
+    .our-services-inner-content-header-title-services {
+        margin-left: 0px;
+    }
+
+    .our-services-inner-content-body {
+        margin-top: 0px;
+    }
+}
+
+
+
+/*CSS application developer*/
+@media screen and (max-width: 1250px) {
+    .application-development-inner-body {
+        flex-direction: column;
+    }
+
+    .application-development-inner-body-element {
+        margin: 20px 0;
+    }
+
+    .application-development-inner-header-describe {
+        padding: 50px;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .application-development-inner-header {
+        flex-direction: column;
+        padding-left: 20px;
+    }
+
+    .application-development-inner-header-describe {
+        padding: 0;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .application {
+        font-size: 60px;
+    }
+
+    .development {
+        font-size: 60px;
+    }
+
+    .application-development-inner-body-element {
+        width: 300px;
+        height: 300px;
+    }
+
+    .center-element {
+        width: 400px;
+        height: 400px;
+    }
+
+    .application-development-inner-body-element {
+        padding-top: 20px;
+    }
+
+    .application-development-inner-body-element-header {
+        img {
+            width: 90px;
+        }
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .application {
+        font-size: 40px;
+    }
+
+    .development {
+        font-size: 40px;
+    }
+
+    .application-development-inner-header-describe {
+        p {
+            font-size: 15px;
+        }
+    }
+
+    .application-development-inner-header {
+        margin-bottom: 20px;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .application-development-inner-body-element {
+        width: 200px;
+        height: 200px;
+        border: 1px solid black;
+    }
+
+    .center-element {
+        width: 250px;
+        height: 250px;
+        border: 1px solid #0061B0;
+    }
+
+    .application {
+        font-size: 30px;
+    }
+
+    .development {
+        font-size: 30px;
+        margin-top: -10px;
+    }
+
+    .application-development-inner-body-element-header {
+        img {
+            width: 40px;
+        }
+    }
+
+    .application-development-inner-body-element-content {
+        .title {
+            font-size: 10px;
+        }
+
+        .content {
+            font-size: 9px;
+            padding: 5;
+        }
+    }
+
+    .decor-center-element {
+        width: 250px;
+        left: 0px;
+    }
+}
+
+/*CSS FORM INPUT*/
+@media screen and (max-width: 1050px) {
+    .form-input-inner-body {
+        flex-direction: column;
+        justify-content: space-around;
+    }
+
+    .input-box {
+        display: flex;
+        justify-content: center;
+        margin: 10px 0;
+    }
+
+    .submit-btn {
+        display: flex;
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .form-input-inner-header {
+        font-size: 20px;
+    }
+
+    .form-input {
+        padding: 0 50px;
+    }
+
+    .form-input-inner {
+        padding: 20px;
+    }
+
+    .form-input {
+        padding: 0 50px;
+        margin-top: 100px;
+    }
+
+    .submit-btn input {
+        margin: 10px 0;
+    }
+
+    .input-box input {
+        margin: 0;
+    }
+}
+
+@media screen and (max-width: 350px) {
+    .submit-btn input {
+        margin: 10px 0;
+        width: 150px;
+    }
+
+    .input-box input {
+        margin: 0;
+        width: 150px;
+    }
+
+    .form-input {
+        padding: 0 20px;
+        margin-top: 50px;
+    }
+}
+
+/*CSS SOFTWARE DEVELOPMENT*/
+@media screen and (max-width: 1250px) {
+    .software-development-inner-body {
+        flex-direction: column;
+    }
+
+    .software-development-inner-body-element {
+        margin: 20px 0;
+    }
+
+    .software-development-inner-header-describe {
+        padding: 50px;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .software-development {
+        p {
+            text-align: right;
+        }
+    }
+
+    .software-development-inner-header {
+        flex-direction: column-reverse;
+        padding-right: 20px;
+    }
+
+    .software-development-inner-header-describe {
+        padding: 0;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .software-development-inner-body-element {
+        width: 300px;
+        height: 300px;
+    }
+
+    .center-element {
+        width: 400px;
+        height: 400px;
+    }
+
+    .software-development-inner-body-element {
+        padding-top: 20px;
+    }
+
+    .software-development-inner-body-element-header {
+        img {
+            width: 90px;
+        }
+    }
+
+}
+
+@media screen and (max-width: 600px) {
+    .software {
+        font-size: 40px;
+    }
+
+    .development {
+        font-size: 40px;
+        margin-top: -20px;
+    }
+
+    .software-development-inner-header-describe {
+        p {
+            font-size: 15px;
+        }
+    }
+
+    .software-development-inner-header {
+        margin-bottom: 20px;
+    }
+
+    .software-development .decor-1,
+    .decor-2 {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .software-development-inner-body-element {
+        width: 200px;
+        height: 200px;
+        border: 1px solid black;
+    }
+
+    .center-element {
+        width: 250px;
+        height: 250px;
+        border: 1px solid #0061B0;
+    }
+
+    .software {
+        font-size: 20px;
+    }
+
+    .development {
+        font-size: 20px;
+        margin-top: -10px;
+    }
+
+    .software-development-inner-body-element-header {
+        img {
+            width: 40px;
+        }
+    }
+
+    .software-development-inner-body-element-content {
+        .title {
+            font-size: 10px;
+        }
+
+        .content {
+            font-size: 9px;
+            padding: 5;
+        }
+    }
+
+    .decor-center-element {
+        width: 250px;
+        left: 0px;
+    }
+}
+
+
+/*CSS MEET OUR TEAM*/
+@media screen and (max-width: 1200px) {
+    .meet-our-team-body-inner {
+        overflow: auto;
+    }
+
+    .meet-our-team-body-inner-center-element-header {
+        img {
+            width: 250px;
+            height: 300px;
+            object-fit: cover;
+            border-top-left-radius: 20px;
+            border-top-right-radius: 20px;
+        }
+    }
+
+    .meet-our-team-body-inner-element {
+        width: 250px;
+        margin: 10px;
+    }
+
+    .meet-our-team-body-inner-side-element-header {
+        img {
+            width: 250px;
+            height: 300px;
+            object-fit: cover;
+            border-top-left-radius: 20px;
+            border-top-right-radius: 20px;
+        }
+    }
+
+    .meet-our-team-body-inner-side-element-content {
+        div {
+            text-align: center;
+            font-size: 15px;
+            padding: 0 5px;
+        }
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .meet-our-team {
+        margin-top: 100px;
+    }
+
+    .meet-our-team-header-title {
+        font-size: 40px;
+    }
+
+    .meet-our-team-header-introduce {
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .card {
+        width: 30%;
+    }
+
+    .card-wrapper {
+        padding: 0 20px;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .card {
+        width: 33%;
+        margin: 5px;
+    }
+
+    .meet-our-team-body {
+        margin: 0 10px;
+    }
+
+    .card-wrapper {
+        padding: 0;
+    }
+
+    .card-body {
+        padding: 0;
+    }
+
+    h5 {
+        font-size: 15px;
+    }
+
+    .card-text {
+        font-size: 12px;
+    }
+}
+
+/*CSS OUR GOALS*/
+@media screen and (max-width: 1500px) {
+    .our-goals-inner-body {
+        flex-direction: column;
+        margin-top: 50px;
+    }
+
+    .our-goals-inner-body-banner {
+        display: flex;
+        justify-content: center;
+
+        img {
+            width: 90%;
+        }
+    }
+
+    .our-goals-inner-body {
+        padding: 3%;
+    }
+
+    .our-goals {
+        padding: 5%;
+    }
+}
+
+@media screen and (max-width: 1350px) {
+    .our-goals-inner-header-introduce {
+        font-size: 20px;
+
+        p {
+            width: 90%;
+            margin: 0;
+        }
+    }
+
+    .our-goals-inner-body-content {
+        p {
+            padding-right: 0;
+            font-size: 18px;
+        }
+    }
+
+    .our-goals-inner-header-title {
+        .our {
+            font-size: 70px;
+        }
+
+        .goals {
+            font-size: 70px;
+        }
+    }
+}
+
+@media screen and (max-width: 950px) {
+    .our-goals-inner-header-introduce {
+        font-size: 18px;
+
+        p {
+            width: 95%;
+            margin: 0;
+        }
+    }
+
+    .our-goals-inner-header-title {
+        .our {
+            font-size: 60px;
+        }
+
+        .goals {
+            font-size: 60px;
+        }
+    }
+
+    .our-goals {
+        padding: 2%;
+    }
+
+    .our-goals-inner-header {
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .carousel-control-next {
+        right: 0px;
+        top: 50%;
+        height: 70px;
+        width: 70px;
+    }
+
+    .carousel-control-prev {
+        left: 0px;
+        top: 50%;
+        height: 70px;
+        width: 70px;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .our-goals {
+        display: none;
+    }
+}

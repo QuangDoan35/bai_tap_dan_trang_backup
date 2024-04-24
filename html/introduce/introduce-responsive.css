@@ -1,0 +1,62 @@
+@media screen and (max-width: 1300px){
+    .introduce-maiatech{
+        margin-top: -300px;
+    }
+}
+@media screen and (max-width: 1100px){
+    .introduce-maiatech{
+        margin-top: -200px;
+    }
+    .introduce-maiatech-inner{
+        width: 90%;
+        padding: 20px;
+    }
+}
+@media screen and (max-width: 600px){
+    .introduce-maiatech{
+        margin-top: -100px;
+    }
+    .introduce-maiatech-inner-header{
+        font-size: 50px;
+        .introdution{
+            margin-right: 50px;
+        }
+        .maiatech{
+            margin-left: 50px;
+        }
+    }
+}
+@media screen and (max-width: 500px){
+    .introduce-maiatech{
+        margin-top: -100px;
+    }
+    .introduce-maiatech-inner-header{
+        font-size: 40px;
+        .introdution{
+            margin-right: 0;
+        }
+        .maiatech{
+            margin-left: 0;
+        }
+    }
+}
+@media screen and (max-width: 400px){
+    .introduce-maiatech{
+        margin-top: -50px;
+    }
+    .introduce-maiatech-inner-header{
+        font-size: 30px;
+    }
+    .introduce-maiatech-inner-body-title{
+        font-size: 17px;
+    }
+    .introduce-maiatech-inner-body-title-contact-logo{
+        margin-top: 50px;
+        img{
+            width: 100px;
+        }
+        .introduce-maiatech-inner-body-title-contact-link img{
+            width: 50px;
+        }
+    }
+}

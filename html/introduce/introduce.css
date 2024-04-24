@@ -1,0 +1,70 @@
+.introduce-maiatech{
+    width: 100%;
+    margin-top: -500px;
+    z-index: 4;
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+.introduce-maiatech-inner{
+    width: 80%;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+    padding: 50px;
+}
+.introduce-maiatech-inner-header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 70px;
+    color: #0264b4;
+    .introdution{
+        margin-right: 100px;
+    }
+    .maiatech{
+        font-weight: bold;
+        margin-left: 100px;
+    }
+}
+.introduce-maiatech-inner-body-title{
+    margin-top: 50px;
+    font-size: 20px;
+    font-weight: bold;
+}
+.introduce-maiatech-inner-body-content{
+    margin-top: 25px;
+    .font-bold{
+        margin: 25px 0;
+        font-weight: bold;
+    }
+}
+.introduce-maiatech-inner-body-title-contact-logo{
+    margin-top: 150px;
+    display: flex;
+    justify-content: center;
+}
+.introduce-maiatech-inner-body-title-contact-link{
+    display: flex;
+    justify-content: center;
+    ul{
+        list-style: none;
+        display: flex;
+        justify-content: center;
+        padding: 0;
+        margin: 0;
+    }
+    ul li{
+        padding: 20px;
+    }
+}
+
+.contac-icon{
+    position: fixed;
+    bottom: 100px;
+    right: 10px;
+    z-index: 20;
+    img{
+        width: 50px;
+    }
+}

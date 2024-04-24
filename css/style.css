@@ -1,0 +1,272 @@
+@font-face {
+    font-family: myfont;
+    src: url(../font/Montserrat/Montserrat-VariableFont_wght.ttf);
+}
+*{
+    font-family: myfont;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.wrapper{
+    width: 100%;
+    min-height: 100vh;
+}
+/*CSS HEADER*/
+header{
+    overflow: hidden;
+    background-color: rgba(241, 241, 241, 0.581);
+    padding-bottom: 300px;
+}
+header .background-header{
+    position: relative;
+    width: 100%;
+    z-index: 1;
+}
+header .background-header .background-header-picture{
+    width: 100%;
+}
+header .header-inner{
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 3;
+    display: flex;
+    padding: 100px;
+    justify-content: space-between;
+}
+.decor-background-header .decor-style{
+    position: absolute;
+    z-index: 2;
+}
+.decor-background-header{
+    .decor-element-1{
+        top: 0; right: 0;
+    }
+    .decor-element-2{
+        top: 400px; left: -50px;
+    }
+    .decor-element-3{
+        top: 700px; left: 150px;
+    }
+    .decor-element-4{
+        top: 1000px; left: 700px;
+    }
+    .decor-element-5{
+        top: 1050px; right: 100px;
+    }
+}
+.header-inner .menu-icon-mobile{
+    display: none;
+}
+.header-inner .menu-icon-mobile img{
+    width: 50px;
+}
+.header-inner .header-inner-logo{
+    img{
+        width: 350px;
+    }
+}
+.header-inner-menu ul{
+    display: flex;
+    list-style: none;
+}
+.header-inner-menu ul li{
+    font-size: 20px;
+}
+.header-inner-menu ul li a{
+    color: white;
+    text-decoration: none;
+    padding: 0 15px;
+}
+.slogan-mobile{
+    display: none;
+}
+.slogan-follow{
+    width: 100%;
+    position: absolute;
+    z-index: 3;
+    top: 500px;
+    float: right;
+}
+.slogan-follow-inner{
+    float: right;
+    margin-right: 200px;
+}
+.slogan-follow-inner .follow{
+    float: right;
+}
+.follow-btn{
+    margin-top: 10px;
+}
+.follow-btn button{
+    padding: 10px 60px;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(40, 133, 255);
+    background-color: white;
+    border: none;
+}
+.social-follow{
+    margin-top: 20px;
+}
+.social-follow ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+.social-follow ul img{
+    width: 50px;
+}
+
+/*CSS FOOTER*/
+.header-decor-footer{
+    position: relative;
+}
+.header-decor-footer img{
+    width: 100%;
+}
+.header-decor-footer .header-decor-footer-ellipse{
+    width: 20%;
+    position: absolute;
+    left: -50px;
+    top: 15%;
+}
+.footer-banner{
+    position: relative;
+}
+.footer-banner-img img{
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+}
+
+footer .footer-banner .overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.692);
+    width: 100%;
+    height: 500px;
+}
+.square-1{
+    position: absolute;
+    z-index: 3;
+    width: 50px;
+    height: 50px;
+    background-color: rgb(21, 108, 179);
+    right: 100px;
+    bottom: 5px;
+    border-radius: 5px;
+}
+.square-2{
+    position: absolute;
+    z-index: 3;
+    width: 50px;
+    height: 50px;
+    background-color: rgb(255, 255, 255);
+    right: 145px;
+    bottom: 50px;
+    border-radius: 5px;
+}
+.square-3{
+    position: absolute;
+    z-index: 3;
+    width: 30px;
+    height: 30px;
+    background-color: rgb(255, 255, 255);
+    right: 200px;
+    bottom: 5px;
+    border-radius: 5px;
+}
+.footer-banner-content{
+    position: absolute;
+    top: 100px;
+    width: 100%;
+    text-align: center;
+    color: white;
+    padding: 10px;
+}
+.footer-banner-content-title{
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+.footer-banner-content-slogan{
+    font-size: 45px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.footer-banner-content-contact button{
+    padding: 10px 50px;
+    color: white;
+    border: none;
+    font-weight: bold;
+    border-radius: 10px;
+    background-image: linear-gradient(to right, rgb(11, 79, 157), rgb(64, 169, 255));
+}
+.footer-banner-content-contact button:hover{
+    background-image: linear-gradient(to left, rgb(11, 79, 157), rgb(64, 169, 255));
+}
+footer{
+    width: 100%;
+    padding: 0;
+}
+.footer-decor-element{
+    position: absolute;
+    z-index: 1;
+}
+.footer-inner{
+    padding: 100px 200px;
+    padding: 100px 50px;
+    width: 100%;
+    background-image: linear-gradient(to top right, #014882, #006dc8, #0486f0);
+    position: relative;
+}
+.footer-inner .footer-inner-container{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+.footer-element{
+    padding: 10px;
+    width: 25%;
+    word-spacing: -1px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    z-index: 2;
+}
+.footer-logo{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    width: 300px;
+    ul{
+        list-style: none;
+        padding: 0;
+        margin: 0;
+    }
+}
+.footer-copyright{
+    text-align: center;
+    margin-top: 100px;
+    color: white;
+}
+.hidden-footer-element{
+    ul{
+        list-style: none;
+        padding: 0;
+        margin: 0;
+    }
+    ul li{
+        padding: 5px 0;
+    }
+    ul li a{
+        color: white;
+        text-decoration: none;
+    }
+}

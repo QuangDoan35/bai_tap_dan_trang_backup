@@ -1,0 +1,132 @@
+
+/*CSS what we do*/
+.dot-line{
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 0;
+    align-items: center;
+}
+.dot{
+    position: absolute;
+}
+.dot-style{
+    width: 10px;
+    height: 10px;
+    background-color: black;
+    border-radius: 50%;
+}
+.line-style{
+    width: 100%;
+    height: 1px;
+    background-color: black;
+}
+.haft-line-style{
+    width: 50%;
+    height: 1px;
+    background-color: black;
+}
+.haft-line-left{
+    width: 100%;
+    display: flex;
+    justify-content: right;
+}
+.haft-line-right{
+    width: 100%;
+    display: flex;
+    justify-content: left;
+}
+.what-we-do-inner-body-element{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.what-we-do-inner-body-element{
+    img{
+        width: 70px;
+    }
+    .what-we-do-inner-body-element-content{
+        display: flex;
+        flex-direction: column;
+    }
+}
+.what-we-do-inner-body-element-content{
+    p{
+        font-size: 13px;
+        padding: 0 20px;
+    }
+}
+.what-we-do{
+    margin-top: 300px;
+    width: 100%;
+    position: relative;
+}
+.what-we-do-inner-header{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    text-align: center;
+}
+.what-we-do-inner-header-title{
+    font-size: 70px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+.what-we-do-inner-header-slogan{
+    font-size: 20px;
+    padding: 0 100px;
+}
+.what-we-do-inner-body{
+    margin-top: 50px;
+    font-size: 20px;
+    padding: 0 150px;
+}
+.what-we-do-inner-body-container{
+    display: flex;
+    justify-content: center;
+}
+.dot-line-mobile{
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 0;
+    align-items: center;
+    margin-right: 20px;
+}
+.dot-mobile{
+    position: absolute;
+}
+.dot-mobile-style{
+    width: 10px;
+    height: 10px;
+    background-color: black;
+    border-radius: 50%;
+}
+.line-mobile, .line-top-mobile{
+    width: 100%;
+}
+.line-mobile-style{
+    width: 1px;
+    height: 200px;
+    background-color: black;
+}
+.line-top-mobile{
+    display: flex;
+}
+.line-top-mobile-style{
+    width: 1px;
+    height: 100px;
+    background-color: black;
+    position: absolute;
+}
+.line-bottom-mobile{
+    display: flex;
+    position: relative;
+}
+.line-bottom-mobile-style{
+    width: 1px;
+    height: 100px;
+    background-color: black;
+    position: absolute;
+    bottom: 0;
+}
